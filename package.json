@@ -1,0 +1,21 @@
+{
+    "name": "questsystem",
+    "version": "1.0.0",
+    "displayName": "QuestSystem",
+    "description": "This is a premade Quest system with saves and a custom graph editor",
+    "unity": "2019.1",
+    "documentationUrl": "https://github.com/lluispalerm/QuestSystem-Demo",
+    "changelogUrl": "https://example.com/changelog.html",
+    "licensesUrl": "https://github.com/lluispalerm/QuestSystem-Demo/blob/main/LICENSE",
+   "keywords": [
+      "Quest",
+      "Editor Graph",
+      "QuestSystem"
+    ],
+    "author": {
+      "name": "Lluis Palerm",
+      "email": "unity@example.com",
+      "url": "https://www.unity3d.com"
+    }
+  }
+  
