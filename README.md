@@ -1,4 +1,5 @@
 # QuestSystem
+![Nodes Gif](https://drive.google.com/uc?id=17b7JXwI9zuZHWpgKX8w82NiScTlwHo14)
 This is a Quest system with saves and a custom graph editor for Unity
 
 You can import directly this package into your unity project by going "Window > Package Manager > + > Add package from git url" and pasting this: https://github.com/lluispalerm/QuestSystem.git (is the same one you can get from github if you click the green button code and get the https url)
@@ -38,7 +39,7 @@ For more information about c# interface: https://learn.microsoft.com/en-us/dotne
 ### Editor Tools
 The package contais a graphView based editor of the quest 
 
-![Nodes Gif](https://lh3.googleusercontent.com/keep-bbsk/AJ5RgYBBqoUjVYWHNMsPB4YmpN7Bdi4fsu5Bg7Sv3yyKhO7nbtO6qISLYWjtAX6NMzir119fbxyyWAyx_ja5wegoed4MeCWbmDKXTi1xtwKnVnj5hu4c=s972)
+![Nodes Gif](https://drive.google.com/uc?id=1AoBwwKTHv78Xo2W4mFTfjtrojzdT3dLq)
 
 ### Save system
 When you update and finish an objective there is a save system (By default is disabled in the editor because its alredy saved on the scriptable assets).
