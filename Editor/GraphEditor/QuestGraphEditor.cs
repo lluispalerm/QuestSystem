@@ -26,11 +26,6 @@ namespace QuestSystem.QuestEditor
 
         }
 
-        void OnGUI()
-        {
-
-        }
-
         private void OnEnable()
         {
             ConstructGraphView();

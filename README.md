@@ -46,4 +46,4 @@ The package contais a graphView based editor of the quest
 When you update and finish an objective there is a save system (By default is disabled in the editor because its alredy saved on the scriptable assets).
 
 ## Code documentation
-If you want to modify or contribute to this tool check the wiki for more information: wiki
+If you want to modify or contribute to this tool check the wiki for more information: https://github.com/lluispalerm/QuestSystem/wiki
