@@ -19,7 +19,6 @@ namespace QuestSystem
             public bool activate;
         }
 
-        //TODO revisar
         public ObjectsForQuestTable[] objectsForQuestTable;
 
         public GameObject[] objectsToControlList;
