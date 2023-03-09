@@ -9,17 +9,17 @@ For a demo project of this tool go to: https://github.com/lluispalerm/QuestSyste
 
 ## User manual
 
-### Conceps
-All of this are scriptable objects exept the manager
+### Concepts
+All of this are scriptable objects except the manager
 
 #### Quest Objective
-The quest objectives are the minimun unit of the quest. It tracks how many interactions are requaired to complete itself and holds information about it. The objectives can be hidden from the player if they are suposed to be secrets.
+The quest objectives are the minimun unit of the quest. It tracks how many interactions are required to complete itself and holds information about it. The objectives can be hidden from the player if they are suposed to be secrets.
 #### Node Quest
-The nodes of a quest can have multiple objectives. When all of of them are completed or the objective is an important one (autoExitOnCompleted) the state of the quest will go to the next node especified. It also has and extra field for am text file in the case you want to use some sort of dialog system.
+The nodes of a quest can have multiple objectives. When all of of them are completed or the objective is an important one (autoExitOnCompleted) the state of the quest will go to the next node especified. It also has and extra field for a text file in the case you want to use some sort of dialog system.
 #### Quest
 A quest has 1 initial point but can have endless paths. If you use the graphic tool provided by this project inside unity it will also save the information of the nodes. If you use the a day counting for your game you can specify when in those days the quest will be avaliable. You can also say if the quest is a main quest or not.
 #### Quest Log 
-You can only have one quest log per game. It keeps track of all de current assigned quest, the completed ones and , even the failed ones. You can also keep track of the day of the game here. 
+You can only have one quest log per game. It keeps track of all the current assigned quests, the completed ones and even the failed ones. You can also keep track of the day of the game here. 
 #### Quest Manager 
 All the previos points where "just data", the manager is the one that will update an all of the parameters.
 
@@ -33,7 +33,7 @@ A monobehaviour to atach to a NPC or a triger and start a Quest. It also has and
 A monobehaviour to atach to a NPC or a triger that updates the the estate of a Quest. Normally it will update and objective, if its compled it updates the node, if its completed updates the quest and if the the node was an endpoint it moves the quest in the Quest Log. It also has and extra text file field.
 
 #### IQuestInteraction
-In order to interact with the updater and the giver you can use the Interact methon inplemented from the IQuestInteraction interface, or you can use a custom one.
+In order to interact with the updater and the giver you can use the Interact method implemented from the IQuestInteraction interface, or you can use a custom one.
 
 For more information about c# interface: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface 
 
